@@ -1,0 +1,29 @@
+{
+  "name": "boilerplate-for-lint",
+  "version": "1.0.0",
+  "description": "This is project boilerplate for lint of Javascript, React, SCSS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcostadev/boilerplate-for-lint.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "lint",
+    "linter",
+    "eslint",
+    "prettier",
+    "stylelint",
+    "scss",
+    "javascript"
+  ],
+  "author": "David Costa <davidcostadev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidcostadev/boilerplate-for-lint/issues"
+  },
+  "homepage": "https://github.com/davidcostadev/boilerplate-for-lint#readme"
+}

@@ -1,0 +1,82 @@
+.button {
+  padding: 8px 16px;
+  color: $white;
+  font-weight: bold;
+  font-size: $font-size;
+  font-family: $font-primary-bold;
+  background-color: $button-bg-color;
+  outline-width: 0;
+
+  &:hover {
+    color: $white;
+    background-color: darken($button-bg-color, 15);
+  }
+
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: darken($button-bg-color, 25);
+  }
+
+  &--orange {
+    background-color: $button-orange-bg-color;
+
+    &:hover {
+      color: $white;
+      background-color: darken($button-orange-bg-color, 15);
+    }
+
+    &:focus,
+    &:active {
+      color: $white;
+      background-color: darken($button-orange-bg-color, 25);
+    }
+  }
+
+  &--big {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 18px;
+    border-radius: 4px;
+  }
+
+  &__icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.31);
+    border-radius: 50%;
+  }
+}
+
+.button-icon {
+  padding: 12px 16px;
+  font-size: 18px;
+  border-width: 0;
+  border-radius: 2px;
+  outline-width: 0;
+  cursor: pointer;
+
+  &--white {
+    color: $button-icon-color;
+    background-color: $white;
+
+    &:focus,
+    &:hover {
+      background-color: darken($white, 10%);
+    }
+
+    &:active {
+      background-color: darken($white, 20%);
+    }
+
+    &:disabled {
+      color: $button-icon-disabeld-color;
+      background-color: $white;
+      cursor: wait;
+    }
+  }
+}

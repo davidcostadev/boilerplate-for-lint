@@ -1,0 +1,44 @@
+{
+  "name": "boilerplate-for-lint",
+  "version": "1.0.0",
+  "description": "This is project boilerplate for lint of Javascript, React, SCSS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcostadev/boilerplate-for-lint.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "lint",
+    "linter",
+    "eslint",
+    "prettier",
+    "stylelint",
+    "scss",
+    "javascript"
+  ],
+  "author": "David Costa <davidcostadev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidcostadev/boilerplate-for-lint/issues"
+  },
+  "homepage": "https://github.com/davidcostadev/boilerplate-for-lint#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "stylelint": "^9.10.1",
+    "stylelint-config-prettier": "^5.0.0",
+    "stylelint-config-rational-order": "0.0.4",
+    "stylelint-prettier": "^1.0.6"
+  }
+}

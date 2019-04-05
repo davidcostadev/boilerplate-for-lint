@@ -7,11 +7,11 @@ This is hard point because we understand que every develop have a way to program
 
 **npm**
 
-`npm install --save-dev babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier stylelint stylelint-config-prettier stylelint-config-rational-order stylelint-prettier`
+`npm install --save-dev babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-import-resolver-webpack eslint-plugin-prettier eslint-plugin-react prettier stylelint stylelint-config-prettier stylelint-config-rational-order stylelint-prettier`
 
 **yarn**
 
-`yarn add --dev babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier stylelint stylelint-config-prettier stylelint-config-rational-order stylelint-prettier`
+`yarn add --dev babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-import-resolver-webpack eslint-plugin-prettier eslint-plugin-react prettier stylelint stylelint-config-prettier stylelint-config-rational-order stylelint-prettier`
 
 ## For vscode
 
